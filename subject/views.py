@@ -2,7 +2,7 @@ from django.http import HttpResponse
 
 
 def subjects(request):
-    return HttpResponse(f"subject_list {request.sheme}")
+    return HttpResponse(f"subject_list")
 
 
 def subject_card(request):
